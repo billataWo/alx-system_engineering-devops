@@ -1,4 +1,2 @@
-#!/bin/bash                                                                                                                             
-p=$(pwd)
-echo "$p"                                                                                                                               
-   
+#!/bin/bash                                                                                                                            
+echo "$(pwd -P)"
